@@ -1,2 +1,2 @@
 # myNote
-Go
+This is a place for taking study notes!
