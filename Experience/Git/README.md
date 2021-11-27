@@ -38,3 +38,10 @@ git remote add origin https://xxx.com/xxx/xxx
 git push -u origin master
 ```
 
+### 更新部署在Github中的项目
+
+1. 在被部署的项目文件中打开`Git Bush Here`
+2. 执行`git add .`指令提交到暂存区
+3. 执行`git commit -m "xxx"`指令,提交到本地仓库
+4. 执行`git push -u origin master`指令提交到远程仓库
+
