@@ -35,6 +35,7 @@ git push -u origin master
 ```
 cd myProject
 git remote add origin https://xxx.com/xxx/xxx
+git branch -m master main  // 更改默认分支名称
 git push -u origin master
 ```
 
@@ -43,5 +44,5 @@ git push -u origin master
 1. 在被部署的项目文件中打开`Git Bush Here`
 2. 执行`git add .`指令提交到暂存区
 3. 执行`git commit -m "xxx"`指令,提交到本地仓库
-4. 执行`git push -u origin master`指令提交到远程仓库
-
+~~4. 执行`git push -u origin master`指令提交到远程仓库
+4. 执行`git push -u origin main`指令提交到远程仓库
