@@ -52,33 +52,6 @@
 
      在`setState()`的`callback`回调函数中
 
-## Component与PureComponent
-
-1. `Component`存在的问题
-
-   - 父组件重新`render()`,当前组件也会重新执行`render()`,即使没有发生任何变化
-   - 当前组件`setState()`,重新执行`rend()`,及时`state`没有任何变化
-
-2. 解决`Component`存在的问题
-
-   - 原因: 组件的`componentShouldUpdate()`,默认返回`true`,及时没有数据变化`render()`也会重新执行
-   - 办法1: 重写`shouldComponentUpdate()`,判断如果有数据变化,返回`true`,否则返回`false`
-   - 方法2: 使用`PureComponent`代替`Component`
-   - 说明: 一般都使用`PureComponent`来优化组件性能
-
-3. `PureComponent`的基本原理
-
-   - 重写实现`shouldComponentUpdate()`
-   - 对组件的新/旧`state`和`props`中的数据进行浅比较,如果都没有变化,就返回`false`,否则返回`true`
-   - 一旦`componentShouldUpdate()`返回`false`,不再执行用于更新的`render()`
-
-4. 面试题:
-
-   组件的哪个生命周期钩子能实现组件优化
-
-   PureComponent的原理?
-
-   区别`Component`与`PureComponent`?
 
    
 
