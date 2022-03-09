@@ -1,2 +1,2 @@
 # myNote
-This is a place for taking study notes!
+这是记载笔记和学习中遇到的问题的地方
