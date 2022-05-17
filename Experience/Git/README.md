@@ -36,7 +36,7 @@ git push -u origin master
 cd myProject
 git remote add origin https://xxx.com/xxx/xxx
 git branch -m master main  // 更改默认分支名称
-git push -u origin master
+git push -u origin main
 ```
 
 ### 更新部署在Github中的项目
