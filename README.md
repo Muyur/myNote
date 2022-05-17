@@ -1,2 +1,2 @@
 # myNote
-这是记载笔记和学习中遇到的问题的地方
+This is a place to record notes and problems encountered in learning.
